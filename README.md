@@ -9,3 +9,5 @@ promo-code : stevekaku ;
 1TB SSD storage : 180 ;
 
 Delivery charge : 20
+
+live site : https://s-m-jony.github.io/Mac-book-ordered/
