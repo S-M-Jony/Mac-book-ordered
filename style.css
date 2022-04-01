@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.container{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+}
+.conatiner-div{
+    width: 50%;
+}
+.conatiner-div >img{
+    margin-top: 60px;
+    width: 100%;
+}
+h1{
+    font-size: 42px;
+}p{
+    line-height: 28px;
+}
+.box{
+display: flex;
+}
+.box>p{
+    margin-top: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.box>p:hover{
+    background-color: green;
+    color: white;
+}
+.category-name{
+    font-weight: 800;
+    font-size: 17px;
+margin-bottom: 1px;
+}
+.price-calc{
+    margin-top: 30px;
+}
+.price, .total-price{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    border-bottom: 1px solid gray;
+}
+.total-price{
+    border-top: 2px solid black;
+    border-bottom: 1px solid gray;
+}
+.promo-code{
+    font-weight: 700;
+    margin: 50px 0px 20px 0px;
+}
+#promo-code-text{
+    margin-bottom: 0;
+}
+input{
+    padding: 5px 10px;
+}
+button {
+    font-weight: 700;
+    background: green;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+}
+.footer{
+    width: 1200px;
+    margin: auto;
+}
+#footer-total{
+    font-size: 45px;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/apple-logo.png.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Mac Book Pro</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="conatiner-div">
+                <img src="img/mac.png" alt="">
+            </div>
+            <div class="conatiner-div">
+
+                <!-- description -->
+                <div>
+                    <h1>Customize your 24-inch iMac with Apple M1 chip.</h1>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Keyboard US English</p>
+                </div>
+
+                <!-- Memory  -->
+                <div>
+                    <p class="category-name">Memory</p>
+                    <div class="box">
+                        <p id="memory-first">8GB unified memory</p>
+                        <p id="memory-second">16GB unified memory</p>
+                    </div>
+                </div>
+
+                <!-- Storage -->
+                <div>
+                    <p class="category-name">Storage</p>
+                    <div class="box">
+                        <p id="storage-first">256GB SSD storage</p>
+                        <p id="storage-second">512GB SSD storage</p>
+                        <p id="storage-third">1TB SSD storage</p>
+                    </div>
+                </div>
+
+                <!-- Choose your delivery option -->
+                <div>
+                    <p class="category-name">Choose your delivery option</p>
+                    <div class="box">
+                        <p id="delivery-first">Friday, Aug 25 FREE Prime Delivery</p>
+                        <p id="delivery-second">Friday, Aug 21 Delivery charge $20</p>
+                    </div>
+                </div>
+
+                <!-- Price Calculation -->
+                <div class="price-calc">
+                    <div class="price">
+                        <p class="category-name">Best Price</p>
+                        <p class="category-name">$<span id="fixed">1299</span></p>
+                    </div>
+                    <div class="price">
+                        <p class="category-name">Extra Memory Cost</p>
+                        <p class="category-name">$<span id="memories">0</span></p>
+                    </div>
+                    <div class="price">
+                        <p class="category-name">Extra Storage Cost</p>
+                        <p class="category-name">$<span id="storages">0</span></p>
+                    </div>
+                    <div class="price">
+                        <p class="category-name">Delivery charge</p>
+                        <p class="category-name">$<span id="deliveries">0</span></p>
+                    </div>
+                    <div class="total-price">
+                        <p class="category-name">Total Price</p>
+                        <p class="category-name">$<span id="total">1299</span></p>
+                    </div>
+                </div>
+                
+                <!-- Promo-Code Button  -->
+                <div class="promo-code">
+                    <p id="promo-code-text">Add Promo code</p>
+                    <input type="text" id="promo-Input">
+                    <button id="promo-btn">Apply</button>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <hr>
+        <h1 id="footer-total">Total: $<span id="last-total">1299</span></h1>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
